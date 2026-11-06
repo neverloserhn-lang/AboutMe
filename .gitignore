@@ -1,8 +1,39 @@
-/node_modules
-/public/build
-/public/hot
-/vendor
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel
+bootstrap/compiled.php
+app/storage/
+
+# Storage
+public/storage
+public/hot
+public_html/storage
+public_html/hot
+
+storage/*.key
+
+# Environment
 .env
 .env.backup
+.env.production
+
+# Homestead
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# PHPUnit
 .phpunit.result.cache
-npm-debug.log
+
+# Build
+/public/build
+/storage/pail
+
+# PHP Actor
+.phpactor.json
+
+# Composer authentication
+auth.json
